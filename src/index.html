@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>list-editor</title>
+</head>
+<body>
+  <div class="container">
+    <div class="editor">
+      <div>Товары</div>
+      <img src="./img/add.png" class="add-button">
+    </div>  
+    <table>
+      <tr>
+        <td>Название</td>
+        <td>Стоимость</td>
+        <td>Действия</td>
+      </tr>
+      <tr class="table"></tr>
+     </table> 
+     <div class="modal hidden">                   
+      <form novalidate>      
+        <div> Название </div>                          
+        <input type="text" name="name" required>
+        <div> Стоимость </div>         
+        <input type="number" min="1" name="price" required>
+        <div>  
+          <button type="submit" class="save-btn">Сохранить</button> 
+          <button type="button" class="cancel-btn">Отмена</button> 
+        </div>
+      </form>                     
+    </div>    
+  </div>  
+</body>
+</html>
