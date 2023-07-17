@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --testPathPattern=./__tests__/ --runInBand",
-    "coverage": "jest --coverage",
+    "test": "jest --testPathPattern=./__tests__/ --runInBand",    
     "lint": "eslint .",
     "build": "webpack --mode production",
     "start": "npx kill-port 9000 && webpack-dev-server --mode development",
