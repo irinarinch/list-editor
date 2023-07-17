@@ -40,8 +40,5 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
-  },
-  "puppeteer": {
-    "cacheDirectory": "join(__dirname, '.cache', 'puppeteer')"
-  } 
+  }  
 }
