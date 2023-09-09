@@ -1,0 +1,63 @@
+body {
+  color: #333;    
+}
+
+.container {
+  width: 300px;  
+}
+
+table {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.editor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.modal {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid black;
+  width: 280px;
+  height: 170px;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  background: #fff;
+}
+
+input {
+  margin-bottom: 15px;
+  width: 95%;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-error {
+  position: absolute;
+  font-size: 12px;
+  width: 200px;
+  color: red;
+  
+  z-index: 999;
+}
+
+
+
+
